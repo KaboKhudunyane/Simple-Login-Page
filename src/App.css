@@ -1,113 +1,107 @@
-/* App.css */
 body {
-  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
 }
 
 .login-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: #f5f5f5;
-}
-
-.login-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.heading-container {
-  margin-bottom: 20px;
-}
-
-.heading-container h1 {
-  font-size: 24px;
-  color: #ff6600;
+  height: 100vh;
+  background-color: #f0f2f5;
 }
 
 .login-container {
-  display: flex;
-  background-color: white;
-  border-radius: 8px;
+  background: #fff;
+  padding: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.login-form {
-  padding: 40px;
-  width: 300px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .login-form h2 {
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 1.5rem;
   color: #333;
+  text-align: center;
 }
 
 .input-group {
-  position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .input-group label {
   display: block;
-  margin-bottom: 8px;
-  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
 }
 
 .input-group input {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
 }
 
 .forgot-password {
   text-align: right;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .forgot-password a {
-  color: #ff6600;
+  color: #007bff;
   text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
 }
 
 .login-btn {
   width: 100%;
-  padding: 10px;
+  padding: 0.75rem;
   border: none;
   border-radius: 4px;
-  background-color: #ff6600;
+  background-color: #007bff;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
 }
 
 .signup-option {
   text-align: center;
-  margin-top: 20px;
 }
 
 .signup-option span {
   display: block;
-  margin-bottom: 10px;
-  color: #666;
+  margin-bottom: 1rem;
+  color: #555;
 }
 
 .signup-btn {
-  padding: 10px 20px;
+  padding: 0.75rem 1rem;
   border: none;
   border-radius: 4px;
-  background-color: #ff6600;
+  background-color: #28a745;
   color: white;
+  font-size: 1rem;
   cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #218838;
 }
