@@ -1,4 +1,5 @@
-Sure! Here is a `README.md` file for your project.
+![image](https://github.com/KaboKhudunyane/Simple-Login-Page/assets/88645384/341bd188-4343-4f69-80b6-fb3ec14b8ad4)
+
 
 **README.md:**
 
